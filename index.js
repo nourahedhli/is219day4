@@ -1,6 +1,6 @@
 const sum = require ('./sum');
 
-a= 2;
+a= 1;
 b= 2;
 
 c= sum( a,b);
