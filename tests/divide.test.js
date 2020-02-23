@@ -1,6 +1,6 @@
 
 
-const divide = require ('./divide');
+const divide = require ('../divide');
 
 test('divide 2 divided by 2 to equal 1', () => {
 

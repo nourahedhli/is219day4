@@ -1,7 +1,7 @@
 
 
 
-const square = require ('./square');
+const square = require ('../square');
 
 test('square of 2 equal to 4', () => {
 
