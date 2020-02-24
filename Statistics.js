@@ -6,7 +6,7 @@ class Statistics extends Calculator {
 
     Variance (a,b) {
 
-        this.subtract(a,b);
+        return this.Subtract(a,b);
 
     }
     // either we want to use this directly from calculator or we can just use Math Operation
