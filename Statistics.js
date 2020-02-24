@@ -4,7 +4,8 @@ const Calculator = require('./Calculator');
 class Statistics extends Calculator {
 // we using this by extending calculator
 
-   
+
+
     // either we want to use this directly from calculator or we can just use Math Operation
     //which ever we want
 
@@ -21,10 +22,11 @@ class Statistics extends Calculator {
     }
 
 
-    Mean (values) {
 
-        let sum = this.Add(values);
-        let numValues = values.length;
+
+
+        let sum = this.Add(valuess);
+        let numValues = valuess.length;
         return this.Divide(sum,numValues);
 
 
