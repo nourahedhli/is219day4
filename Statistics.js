@@ -4,9 +4,9 @@ const Calculator = require('./Calculator');
 class Statistics extends Calculator {
 // we using this by extending calculator
 
-    Variance (a,b) {
+    //Variance (a,b) {
 
-        return this.Subtract(a,b);
+        //return this.Subtract(a,b);
 
     }
     // either we want to use this directly from calculator or we can just use Math Operation
