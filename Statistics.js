@@ -5,7 +5,6 @@ class Statistics extends Calculator {
 // we using this by extending calculator
 
     Variance (a,b) {
-
         return this.Subtract(a,b);
 
     }
@@ -19,7 +18,7 @@ class Statistics extends Calculator {
     //}
 
 
-    Mean (values){
+    Mean (values) {
 
         let sum = this.Add(values);
         let numValues = values.length;
