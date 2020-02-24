@@ -7,14 +7,26 @@
     "test": "jest",
     "start": "node index.js",
     "coverage": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "keywords": [],
-  "author": "Keith Williams",
-  "email": "keith@webizly.com",
+  "author": "Noura Hedhli",
+  "email": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "coveralls": "^3.0.9",
     "jest": "^25.1.0"
   }
+}
+"keywords": [],
+"author": "Noura Hedhli",
+"email": "",
+"license": "ISC",
+"dependencies": {
+},
+"devDependencies": {
+"coveralls": "^3.0.9",
+"jest": "^25.1.0"
+}
 }
