@@ -19,10 +19,10 @@ class Statistics extends Calculator {
     //}
 
 
-    Mean (values){
+    Mean (valuess){
 
-        let sum = this.Add(values);
-        let numValues = values.length;
+        let sum = this.Add(valuess);
+        let numValues = valuess.length;
         return this.Divide(sum,numValues);
 
 
