@@ -1,5 +1,5 @@
 {
-  "name": "is219day3",
+  "name": "is219hello",
   "version": "1.0.0",
   "description": "My First Node App",
   "main": "index.js",
@@ -10,23 +10,12 @@
     "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
   },
   "keywords": [],
-  "author": "Noura Hedhli",
-  "email": "",
+  "author": "Keith Williams",
+  "email": "keith@webizly.com",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "coveralls": "^3.0.9",
     "jest": "^25.1.0"
   }
-}
-"keywords": [],
-"author": "Noura Hedhli",
-"email": "",
-"license": "ISC",
-"dependencies": {
-},
-"devDependencies": {
-"coveralls": "^3.0.9",
-"jest": "^25.1.0"
-}
 }
