@@ -10,9 +10,15 @@ class Statistics extends Calculator {
 
     //VarianceV2 (a,b) {
         //return this.result = MathOperation.subtract(a,b);
+    //}
 
 
     //}
+
+    Variance (a,b) {
+
+        return this.Subtract(a, b);
+    }
 
 
     Mean (values) {
